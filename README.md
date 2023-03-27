@@ -1,17 +1,17 @@
 # midterm-project
-Package Summary:
+## Package Summary:
 
 The TextBlob package offers a user-friendly API for tasks like text categorization, parts of speech tagging, and sentiment analysis, making it easier for Python programmers to work with human language text. It is constructed on top of other well-known NLP libraries, and because it is open-source, anyone can use it and contribute to it. Due to its simplicity and ease of use, TextBlob is a fantastic option for folks who are new to natural language processing.
 
 
-Install and Run Instructions:
+## Install and Run Instructions:
+```
+$ pip install -U textblob
+$ python -m textblob.download_corpora
+```
 
-pip install textblob
 
-python -m textblob.download_corpora
-
-
-Code: 
+## Code: 
 
 Open and run textblobsamplecode.py
 
@@ -23,6 +23,6 @@ Lastly, we use an example text string to call the get sentiment() function to sh
 Overall, this code shows how to perform simple sentiment analysis on a snippet of text using the TextBlob library. We can rapidly and effectively extract information about the sentiment of text data using the TextBlob package, which can be helpful for a wide range of natural language processing jobs.
 
 
-Future idea:
+## Future idea:
 
 You can use the TextBlob package to evaluate customer reviews of a good or service and produce a report on how people feel about it for your final project in class. The report might display the proportion of favorable, unfavorable, and neutral evaluations as well as the most often discussed subjects. This report can be used by businesses to improve their goods and clientele.
